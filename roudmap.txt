@@ -1,0 +1,5 @@
+***no back-end***
+1-primeiro inicia a aplicação no app.js, onde se inicia o servidor
+onde tem o middleware que direciona para a pasta routes.
+
+2-A pasta routes tem as rotas. 
