@@ -3,3 +3,4 @@ npx create-react-app front-end
 
 ### Rodar o projeto
 npm start
+

@@ -1,14 +1,12 @@
 const express = require('express')
-//const cors = require('cors')
+const cors = require('cors')
 const app = express()
-const port = 3000
+const port = 3001
 const todoRoute = require("./routes/todo")
 
 app.use(express.json()) // middleware vai permitir que o servidor receba arquivo json
 
-/* pp.use((req, res, next) =>{
-    
-}) */
+app.use(cors()) // O cors e o middleware que permite o acesso do navegador a API
 
 // Este app.use funciona como um middleware que direciona para a pasta routes
 app.use("/todo", todoRoute)
